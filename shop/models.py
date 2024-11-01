@@ -29,6 +29,7 @@ class Product(models.Model):
     description = models.TextField(verbose_name='Описание')
     model = models.CharField(max_length=50, verbose_name='Модель')
     release_date = models.DateField(verbose_name='Дата выхода продукта на рынок')
+    trade_network = models.ForeignKey(TradeNetwork, verbose_name='Элемент торговой сети', on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
