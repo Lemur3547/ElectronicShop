@@ -13,8 +13,8 @@ def сlear_debt(modeladmin, request, queryset):
 
 @admin.register(TradeNetwork)
 class TradeNetworkAdmin(admin.ModelAdmin):
-    fields = ('name', 'email', 'country', 'city', 'street', 'house', 'supplier', 'debt',)
-    list_display = ('name', 'email', 'country', 'city', 'street', 'house', 'supplier_link', 'debt',)
+    fields = ('name', 'email', 'type', 'country', 'city', 'street', 'house', 'supplier', 'debt',)
+    list_display = ('name', 'email', 'type', 'country', 'city', 'street', 'house', 'supplier_link', 'debt',)
     list_display_links = ('name', 'supplier_link',)
     list_filter = ('city',)
     search_fields = ('city',)

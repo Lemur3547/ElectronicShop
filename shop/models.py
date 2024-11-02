@@ -7,6 +7,9 @@ NULLABLE = {'null': True, 'blank': True}
 class TradeNetwork(models.Model):
     name = models.CharField(max_length=255, verbose_name='Название')
     email = models.EmailField(max_length=255, verbose_name='Email')
+    type = models.CharField(max_length=25, choices=[('factory', 'Завод'), ('retail_network', 'Розничная сеть'),
+                                                    ('individual entrepreneur', 'Индивидуальный предприниматель')],
+                            verbose_name='Тип')
     country = models.CharField(max_length=100, verbose_name='Страна')
     city = models.CharField(max_length=100, verbose_name='Город')
     street = models.CharField(max_length=100, verbose_name='Улица')
