@@ -18,9 +18,9 @@ class User(AbstractUser):
 
     def __str__(self):
         if self.patronymic:
-            return f'{self.first_name} {self.last_name} {self.patronymic}'
+            return f'{self.last_name} {self.first_name} {self.patronymic}'
         else:
-            return f'{self.first_name} {self.last_name}'
+            return f'{self.last_name} {self.first_name}'
 
     class Meta:
         verbose_name = 'Пользователь'
