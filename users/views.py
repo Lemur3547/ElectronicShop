@@ -5,6 +5,7 @@ from users.serializers import UserRegisterSerializer
 
 # Create your views here.
 class UserCreateAPIView(generics.CreateAPIView):
+    """Контроллер для регистрации пользователя"""
     serializer_class = UserRegisterSerializer
 
     def perform_create(self, serializer):

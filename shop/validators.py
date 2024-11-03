@@ -2,6 +2,7 @@ from rest_framework.exceptions import ValidationError
 
 
 class DebtUpdateValidator:
+    """Валидатор, запрещающий изменение задолженности перед поставщиком"""
     def __init__(self, value):
         self.value = value
 

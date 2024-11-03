@@ -5,6 +5,7 @@ NULLABLE = {'null': True, 'blank': True}
 
 
 class TradeNetwork(models.Model):
+    """Модель звена торговой сети"""
     name = models.CharField(max_length=255, verbose_name='Название')
     email = models.EmailField(max_length=255, verbose_name='Email')
     type = models.CharField(max_length=25, choices=[('factory', 'Завод'), ('retail_network', 'Розничная сеть'),
@@ -28,6 +29,7 @@ class TradeNetwork(models.Model):
 
 
 class Product(models.Model):
+    """Модель продукта"""
     name = models.CharField(max_length=255, verbose_name='Название')
     description = models.TextField(verbose_name='Описание')
     model = models.CharField(max_length=50, verbose_name='Модель')
