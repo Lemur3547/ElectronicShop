@@ -1,0 +1,148 @@
+[
+  {
+    "model": "shop.tradenetwork",
+    "pk": 13,
+    "fields": {
+      "name": "DNS",
+      "email": "dns-shop@gmail.com",
+      "type": "retail_network",
+      "country": "Россия",
+      "city": "Екатеринбург",
+      "street": "Ленина",
+      "house": "48",
+      "supplier": 15,
+      "debt": "0.00",
+      "created_at": "2024-11-03T09:22:05.217Z",
+      "updated_at": "2024-11-03T09:25:40.564Z"
+    }
+  },
+  {
+    "model": "shop.tradenetwork",
+    "pk": 14,
+    "fields": {
+      "name": "DNS",
+      "email": "dns-shop@gmail.com",
+      "type": "retail_network",
+      "country": "Россия",
+      "city": "Екатеринбург",
+      "street": "Техническая",
+      "house": "37",
+      "supplier": 15,
+      "debt": "0.00",
+      "created_at": "2024-11-03T09:23:07.829Z",
+      "updated_at": "2024-11-03T09:25:35.135Z"
+    }
+  },
+  {
+    "model": "shop.tradenetwork",
+    "pk": 15,
+    "fields": {
+      "name": "Завод электроники",
+      "email": "zavod-el@mail.ru",
+      "type": "factory",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Харьковская",
+      "house": "67",
+      "supplier": 17,
+      "debt": "38000.00",
+      "created_at": "2024-11-03T09:25:29.024Z",
+      "updated_at": "2024-11-03T09:28:33.734Z"
+    }
+  },
+  {
+    "model": "shop.tradenetwork",
+    "pk": 16,
+    "fields": {
+      "name": "ИП Кто то там",
+      "email": "unknown@gmail.com",
+      "type": "individual entrepreneur",
+      "country": "Россия",
+      "city": "Казань",
+      "street": "Техническая",
+      "house": "3",
+      "supplier": 13,
+      "debt": "5000.00",
+      "created_at": "2024-11-03T09:26:54.827Z",
+      "updated_at": "2024-11-03T09:26:54.827Z"
+    }
+  },
+  {
+    "model": "shop.tradenetwork",
+    "pk": 17,
+    "fields": {
+      "name": "Завод микрочипов",
+      "email": "micron@gmail.com",
+      "type": "factory",
+      "country": "Россия",
+      "city": "Электросталь",
+      "street": "Заводская",
+      "house": "38",
+      "supplier": null,
+      "debt": "0.00",
+      "created_at": "2024-11-03T09:28:19.534Z",
+      "updated_at": "2024-11-03T09:28:19.534Z"
+    }
+  },
+  {
+    "model": "shop.tradenetwork",
+    "pk": 18,
+    "fields": {
+      "name": "ООО Ноутбукус",
+      "email": "laptopus@gmail.com",
+      "type": "individual entrepreneur",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Проспект Мира",
+      "house": "56",
+      "supplier": 15,
+      "debt": "0.00",
+      "created_at": "2024-11-03T09:29:53.884Z",
+      "updated_at": "2024-11-03T09:29:53.884Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+      "name": "Ноутбук Acer XC-112E",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "model": "Acer XC-112E",
+      "release_date": "2023-06-12",
+      "trade_network": 18
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 8,
+    "fields": {
+      "name": "Смартфон POCO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "model": "POCO 12",
+      "release_date": "2024-04-03",
+      "trade_network": 14
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 9,
+    "fields": {
+      "name": "iPhone 16",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "model": "16",
+      "release_date": "2023-11-15",
+      "trade_network": 16
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 10,
+    "fields": {
+      "name": "Чип памяти 128 Гб",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "model": "EX55-BXre34",
+      "release_date": "2018-02-01",
+      "trade_network": 17
+    }
+  }
+]
